@@ -15,4 +15,13 @@ const Employees = () => {
   );
 };
 
-export default Employees;
+export default function Employees() {
+  return (
+    <div>
+      <h1>Env Test</h1>
+      <p>URL: {String(process.env.REACT_APP_SUPABASE_URL)}</p>
+      <p>KEY EXISTS: {String(!!process.env.REACT_APP_SUPABASE_ANON_KEY)}</p>
+    </div>
+  );
+}
+
