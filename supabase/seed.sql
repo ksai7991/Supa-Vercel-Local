@@ -1,5 +1,5 @@
 insert into public.employees (name, email, position, salary) values
-  ('Alicee Johnson', 'alice.johnson@example.com', 'Software Engineer', 95000.00),
+  ('Alicee Johnson', 'alice.johnson@example.com', 'Software xxxx', 95000.00),
   ('Miguel Santos', 'miguel.santos@example.com', 'Product Manager', 105000.00),
   ('Priya Patel', 'priya.patel@example.com', 'Data xxx', 78000.00),
   ('Liam O''Connor', 'liam.oconnor@example.com', 'DevOps Engineer', 90000.00),
