@@ -170,8 +170,8 @@ enabled = true
 
 [auth.webauthn]
 rp_display_name = "My React App"
-rp_id = "env(SITE_URL_HOST)"
-rp_origins = ["env(SITE_URL)"]
+rp_id = env(SITE_URL_HOST)
+rp_origins = [env(SITE_URL)]
 
 [auth.email]
 # Allow/disallow new user signups via email to your project.
