@@ -165,6 +165,8 @@ web3 = 30
 # enabled = true
 # provider = "hcaptcha"
 # secret = ""
+[auth.passkey]
+enabled = true
 
 [auth.email]
 # Allow/disallow new user signups via email to your project.
