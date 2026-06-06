@@ -169,9 +169,9 @@ web3 = 30
 enabled = true
 
 [auth.webauthn]
-rp_display_name = "My React App"
-rp_id = "env(GOTRUE_SITE_URL)"
-rp_origins = ["env(GOTRUE_SITE_URL)"]
+rp_display_name = 
+rp_id = 
+rp_origins = 
 
 [auth.email]
 # Allow/disallow new user signups via email to your project.
