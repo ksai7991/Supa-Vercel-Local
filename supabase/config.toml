@@ -167,11 +167,10 @@ web3 = 30
 # secret = ""
 [auth.passkey]
 enabled = true
-
 [auth.webauthn]
-rp_display_name = ""
-rp_id = ""
-rp_origins = []
+rp_display_name = "My App"
+rp_id = "example.com"
+rp_origins = ["https://example.com", "https://app.example.com"]
 
 [auth.email]
 # Allow/disallow new user signups via email to your project.
